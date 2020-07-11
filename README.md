@@ -13,4 +13,4 @@ mongodb://mongodbuser:mongodbpassword@localhost:27017/?authSource=admin
 3. Create database "jornada" and add "etapa" collection using example file (sample_data/etapas.json)
 
 ### API docs:
-access swagger route via: http://localhost:5000/swager
+access swagger route via: http://localhost:5000/swagger
