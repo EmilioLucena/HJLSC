@@ -1,0 +1,52 @@
+
+tags:
+  - Etapa
+
+parameters:
+  - in: path
+    name: etapa_id
+    schema:
+      type: integer
+    required: true
+    description: ID da etapa
+
+      
+produces:
+  - application/json 
+      
+
+responses:
+  200:
+    description: "OK"
+    schema:
+      type: object
+      properties:
+        course:
+          type: string
+        name:
+          type: string
+        id:
+          type: integer
+        step:
+          type: integer
+        stage:
+          type: integer
+      example: 
+        course: "Machine Learning"
+        name: "Mentors Aid"
+        id: 4
+        step: 4
+        stage: 1
+  
+  500:
+    description: "Internal Error, contact service admin"
+    schema:
+      type: string
+      example: "{'Exception':'unforeseen mistake'}"
+  
+  404:
+    description: "Resource not found"
+    schema:
+      type: string
+      example: "{'status': 404, 'error': 'resource not found'}"
+

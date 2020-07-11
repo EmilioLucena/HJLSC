@@ -46,7 +46,7 @@ def status():
 
 @app.route('/etapas', methods = ['get'])
 @swag_from('swagger/etapas.yml')
-def process():
+def get_etapas():
 
     app.logger.info("request received on route /etapas'")
 
@@ -58,6 +58,23 @@ def process():
         etapas.append(etapa)
 
     return json.dumps(etapas), 200, {'ContentType':'application/json'}
+
+@app.route('/etapa/<int:etapa_id>', methods = ['get'])
+@swag_from('swagger/etapa.yml')
+def get_etapa(etapa_id):
+
+    app.logger.info("request received on route /etapa'")
+
+    etapa_db = db.etapa.find_one({'id':etapa_id})
+    if(etapa_db != None):
+        del etapa_db['_id']
+        response_code = 200
+    else:
+        etapa_db = {'status': 404, 'error': 'resource not found'}
+        response_code = 404
+    
+    #app.logger.info(etapa_db)
+    return json.dumps(etapa_db), response_code, {'ContentType':'application/json'}
 
 
 app.run(host=os.environ['HOST'],port=os.environ['PORT'])
