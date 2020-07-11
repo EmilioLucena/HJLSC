@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 from flask import redirect, url_for, jsonify
+from flask_pymongo import PyMongo
 import os
 import json
 import sys
@@ -26,46 +27,37 @@ dictConfig({
     }
 })
 
+username = os.environ['MONGODB_USERNAME']
+password = os.environ['MONGODB_PASSWORD']
+db_host = os.environ['MONGODB_HOSTNAME']
+database = os.environ['MONGODB_DATABASE']
 
 app = Flask(__name__)
+app.config["MONGO_URI"] = f"mongodb://{username}:{password}@{db_host}:27017/{database}?authSource=admin"
+mongo = PyMongo(app)
+db = mongo.db
 
 swagger = Swagger(app, config=swagger_configuration)
+
 
 @app.route('/status')
 def status():
     return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
 
-@app.route('/transcribe', methods = ['POST'])
-@swag_from('swagger/transcribe.yml')
+@app.route('/etapas', methods = ['get'])
+@swag_from('swagger/etapas.yml')
 def process():
 
-    if(not request.is_json or request.get_json() == None):
-        return json.dumps({"Bad Request":"missing or badly formatted data"}), 
-        400, {'ContentType':'application/json'}
-    
-    input_dict = request.get_json()
+    app.logger.info("request received on route /etapas'")
 
-    app.logger.info(f"JSON object received in /transcribe route: {input_dict}")
-    
-    app.logger.info(f"mission name: {input_dict['mission_id']}")
+    etapas_db = db.etapa.find()
+    etapas = []
+    for obj in etapas_db:
+        etapa = {'course':obj['course'], 'name': obj['name'], 'id':obj['id'], 'step': obj['step'], 'stage': obj['stage']}
+        #app.logger.info(etapa)
+        etapas.append(etapa)
 
-    #data = transcriptionController().transcribe_answer_file(input_dict)
-
-    return json.dumps({}), 200, {'ContentType':'application/json'}
-
-@app.route('/check_job', methods = ['POST'])
-def check_job():
-
-    if(not request.is_json or request.get_json() == None):
-        return json.dumps({"Bad Request":"missing or badly formatted data"}), 
-        400, {'ContentType':'application/json'}
-    
-    input_dict = request.get_json()
-
-    app.logger.info(f"JSON object received in /check_job route: {input_dict}")
-
-    return json.dumps({'status':'running'}), 200, {'ContentType':'application/json'}
-
+    return json.dumps(etapas), 200, {'ContentType':'application/json'}
 
 
 app.run(host=os.environ['HOST'],port=os.environ['PORT'])

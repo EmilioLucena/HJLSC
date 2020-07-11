@@ -1,0 +1,37 @@
+
+tags:
+  - Etapas
+
+
+produces:
+  - application/json 
+      
+
+responses:
+  200:
+    description: "OK"
+    schema:
+      type: object
+      properties:
+        course:
+          type: string
+        name:
+          type: string
+        id:
+          type: integer
+        step:
+          type: integer
+        stage:
+          type: integer
+      example: 
+        course: "Machine Learning"
+        name: "Ordinary World"
+        id: 1
+        step: 1
+        stage: 1
+  
+  500:
+    description: "Internal Error, contact service admin"
+    schema:
+      type: string
+      example: "{'Internal server error':'unforeseen mistake'}"
