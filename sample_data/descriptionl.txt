@@ -1,0 +1,102 @@
+The Heroic Journey of a Learner in STEM courses
+
+
+Learning Heroine's World
+
+description step: Who is the Learning Heroine? How is her World like of the beginning?
+
+description: Seu mundo inicial é repleto de angústias, dúvidas e falta de confiança. Possui diversas atividades diárias que incluem os estudos, família e lazer. Por vezes existem tarefas domésticas ou trabalhos. Precisa progredir suas habilidadesa nas áreas de STEM, se sentir parte de um grupo. Possui dúvidas sobre o futuro da profissão, mas acredita no aumento das mulheres no mercado de trabalho.
+
+description plus: Consentimento + acordo/promessa , da jornada da Heroína, sobre machine learning e wikipedia. Escreve uma reação na wiki.
+
+
+Malala's Call
+
+description step: What breakes the balance. Is there a messagem?
+
+description: Uma mensagem criptografada pela Heroína dos códigos, que é uma inteligência artificial, chamada-se Mera/Tempestade/Estelar/Feiticeira Escalarte/Capitã Marvel/Ravena e Fênix.
+
+description plus: Recebe mensagem da IA contendo as regras da jornada, acessa via QRCode. Conhece o mapa da Jornada
+
+
+Machine Learning
+
+description step: What does The Heroine Fear? What happend to change her mind?
+
+description: A Heroína teme um julgamento preconceituoso dos homens. A maldição cultural e a rejeição no mercado de trabalho que muda de idéia quando assite uma apresentação de um grupo de mulheres de sucesso nas áreas de STEM. A participação na TED-X pelas jovenes heroínas aprendizes, fazem com que seu coração ganhe autocnfiança para ela prosseguir nos estudos de STEM. É uma apresentação motivacional contando a jornada. 
+
+description plus: A aluna aprendiz realiza o bartle test no computador e recebe a carta/figura de Player/Personagem. Acessa teste via QRCode.
+
+Artificial Integration
+
+description step: Who Guides The Heroíne, How does she help her.
+
+description: Quem guia a Heroína é a guerreira do universo, uma inteligência artificial guiada do Atena, Deusa da sabedoria. Ela ajuda a estudante com conteúdos, tirando dúvidas, organizando grupos e estimulando a colaboração e a autorregulação da aprendizagem. 
+
+description plus: Agora a aluna aprendiz precisa dedicar tempo aos estudos, surgem problemas na agestão do tempo/procrastinação e dificuldades. Assistir ao BOX "1" de vídeos e podcast. Aparecem os tutores humanos e não humanos também podem surgir especialistas no grupo de telegram. Surgem recursos de aprendizagem e novas plataformas/ambientes tecnológicos.
+
+
+STEM Learning can say no
+
+description step: What does the Heroine lose. What is she happen to gain?
+
+description: A heroína perde o medo de programar, ela está esperando ganhar confiança e stars nos seus repositórios de códigos no github, além disso, ajuda nas issues e comentários nos fóruns e tarefas. 
+
+description plus: Acessa Box "2" vídeos motivacionais, visitas a empresas, pesquisas na internet + tempo livre.
+
+Machine Initiation
+
+description step: What does the Heroine find in the new World?
+
+description: A heroína encontra seu novo mundo. Diversos códigos de programação que permitem a ela conduzir novos projetos. Seu novo mundo contém várias outras alunas/amigas, oportunidades de estágios em empresas, apresentações públicas, workshops, condução de projeots e novas oportunidades de trabalho. 
+
+description plus: Acessa "Box 3". Uso de apis, formaulas matematicas, manipulaçao de dados, estatisticas, handson com tutores.  
+
+ 
+Meeting with Lady of Keys
+
+description step: What does she learning ? How does she doing? 
+
+description: A heroina aprende machine learning(básico) e se sente forte o suficiente para seguir nos estudos. Também aprendeu fórmulas matemáticas de consultas a dados.   
+
+description plus: Acessa Box "4" demonstração de habilidades, apresentação, projetos em grupo, desenvolvimento de uma plaicação funcional.
+
+Encryption of codes
+
+description step: The Heroine is ready. What is she learned last? 
+
+description: A Heroína aprendeu a ter autoconfiaça. Autorregulação no processo de aprendizagem, agora a Heroína perdeu o medo de programar e de matemática.
+
+description plus: Aplicação desenvolvida para a aluna aprendiz, está disponível no repositório do Github com licença de uso/readme.
+
+Numbers are passwords
+
+description step: What is she about to face? How is she getting ready? 
+
+description: A Heroína está prestes a enfrentar o primeiro projeto de machine learning. É seu grande desafio a enfrentar. Ela possui exemplos de códigos, formatos de projetos, apresentação de vídeos/pitchs e repositório de projetos com wiki colaborativa. 
+
+description plus: Recebe relatório final, "statuts" de Heroína aprendiz visível por toda a comunidade - Recebe instruções finais com 10 tópicos da autorregulação da aprendizagem(10 mandamentos). 
+
+Self Regulated Learning
+
+description step: This is the face of with the enemies. How does it go? 
+
+description: A Heroína encara de frente seu grande desafio. Como toda a experiência aprendida, agora a aluna está pronta para encarar uma demonstração pública de seus conhecimentos. Ela precisará colocar em prática as novas habilidades adquiridas até aqui.
+
+description plus: A aprendiz precisa fazer uma apresentação do seu código/explicação e a avaliação pela comunidade, a heroína encara o desafio com sucesso e seu código roda. 
+
+Reboot System
+
+description step: What does she gain? how has she changed?
+
+description: A aprendiz agora ganha o "status" de Heroína aprendiz e o nascimento de sua "Cria" híbrida, artificial, a inteligência [Nome da Aluna] que interage com outras "crias" de outras alunas.
+
+description plus: Agora a aluna aprendiz precisa abrir um "portal" de um grupo secreto com Heroínas aprendizes.
+
+STEM Heroine
+
+description step: What the last trials? How is the purified by it? 
+
+description: Como consequência desta jornada a aluna heroína aprendiz recebe uma oportunidade de estágio nas empresas parceiras. Recebe um relatório/certificado de habilidades para comprovar sua bravura e experiência
+
+description plus: Para se manter com "status" de Heroína aprendiz, a aluna precisa ajudar outra aluna iniciante em seu projeto, realizando uma mentoria fora de disciplina que aprendeu. Somente as Heroínas aprendizes conseguem realizar esta tarefa.
