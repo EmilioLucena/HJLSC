@@ -5,50 +5,49 @@ Learning Heroine's World
 
 description step: Who is the Learning Heroine? How is her World like of the beginning?
 
-description: Seu mundo inicial é repleto de angústias, dúvidas e falta de confiança. Possui diversas atividades diárias que incluem os estudos, família e lazer. Por vezes existem tarefas domésticas ou trabalhos. Precisa progredir suas habilidadesa nas áreas de STEM, se sentir parte de um grupo. Possui dúvidas sobre o futuro da profissão, mas acredita no aumento das mulheres no mercado de trabalho.
+description: Your initial world is full of anguish, doubt and lack of confidence. It has several daily activities that include studies, family and leisure. Sometimes there are household chores or jobs. She needs improve your STEM skills's, feel part of a group. She has doubts about the future of profession, but believes in the increase of women in the labor market.
 
-description plus: Consentimento + acordo/promessa , da jornada da Heroína, sobre machine learning e wikipedia. Escreve uma reação na wiki.
+
+description plus: Consent + agreement / promise, from Heroíne's journey, on machine learning and wikipedia. Write a reaction on the wiki.
 
 
 Malala's Call
 
 description step: What breakes the balance. Is there a messagem?
 
-description: Uma mensagem criptografada pela Heroína dos códigos, que é uma inteligência artificial, chamada-se Mera/Tempestade/Estelar/Feiticeira Escalarte/Capitã Marvel/Ravena e Fênix.
+description: A message encrypted by the heroine of the codes, which is an artificial intelligence called up Mera / Storm / Star / Witch Escalarte / Captain Marvel / Ravena and Phoenix.
 
-description plus: Recebe mensagem da IA contendo as regras da jornada, acessa via QRCode. Conhece o mapa da Jornada
-
+description plus: Receives a message from the AI, containing the rules of the Journey, accesses via QRCode. Know the map of Journey
 
 Machine Learning
 
 description step: What does The Heroine Fear? What happend to change her mind?
 
-description: A Heroína teme um julgamento preconceituoso dos homens. A maldição cultural e a rejeição no mercado de trabalho que muda de idéia quando assite uma apresentação de um grupo de mulheres de sucesso nas áreas de STEM. A participação na TED-X pelas jovenes heroínas aprendizes, fazem com que seu coração ganhe autocnfiança para ela prosseguir nos estudos de STEM. É uma apresentação motivacional contando a jornada. 
+description: The Heroine fears a prejudiced judgment of men. There is the cultural issue and rejection in the labor market. She changes her mind when she attends a presentation by a group of successful women in STEM areas. The participation in TED-X by the young heroine, makes her heart gain self-confidence to continue studying STEM. It is a motivational presentation telling the journey. 
 
-description plus: A aluna aprendiz realiza o bartle test no computador e recebe a carta/figura de Player/Personagem. Acessa teste via QRCode.
+description plus: The learner heroine performs the bartle test on the computer and receives the letter / figure of Player / Character. Access test via QRCode.
 
 Artificial Integration
 
 description step: Who Guides The Heroíne, How does she help her.
 
-description: Quem guia a Heroína é a guerreira do universo, uma inteligência artificial guiada do Atena, Deusa da sabedoria. Ela ajuda a estudante com conteúdos, tirando dúvidas, organizando grupos e estimulando a colaboração e a autorregulação da aprendizagem. 
+description: Who guides the Heroine is the warrior of the universe, an artificial intelligence guided by Athena, Goddess of wisdom. It helps students with content, answering questions, organizing groups and encouraging collaboration and self-regulation of learning. 
 
-description plus: Agora a aluna aprendiz precisa dedicar tempo aos estudos, surgem problemas na agestão do tempo/procrastinação e dificuldades. Assistir ao BOX "1" de vídeos e podcast. Aparecem os tutores humanos e não humanos também podem surgir especialistas no grupo de telegram. Surgem recursos de aprendizagem e novas plataformas/ambientes tecnológicos.
-
+description plus: Now the heroine student needs to dedicate time to studies, problems arise in managing time / procrastination and difficulties. Watch BOX "1" videos and podcast. Human and non-human tutors appear, experts may also appear in the telegram group. Learning resources and new technological platforms / environments are emerging.
 
 STEM Learning can say no
 
 description step: What does the Heroine lose. What is she happen to gain?
 
-description: A heroína perde o medo de programar, ela está esperando ganhar confiança e stars nos seus repositórios de códigos no github, além disso, ajuda nas issues e comentários nos fóruns e tarefas. 
+description: The heroine loses her fear of programming, she is hoping to gain confidence and stars in her code repositories on github, in addition, she helps with issues and comments on forums and tasks. 
 
-description plus: Acessa Box "2" vídeos motivacionais, visitas a empresas, pesquisas na internet + tempo livre.
+description plus: Access Box "2" motivational videos, visits to companies, internet searches + free time.
 
 Machine Initiation
 
 description step: What does the Heroine find in the new World?
 
-description: A heroína encontra seu novo mundo. Diversos códigos de programação que permitem a ela conduzir novos projetos. Seu novo mundo contém várias outras alunas/amigas, oportunidades de estágios em empresas, apresentações públicas, workshops, condução de projeots e novas oportunidades de trabalho. 
+description: The heroine finds her new world. Several programming codes that allow it to conduct new projects. Your new world contains several other students / friends, internship opportunities in companies, public presentations, workshops, conducting projects and new job opportunities. 
 
 description plus: Acessa "Box 3". Uso de apis, formaulas matematicas, manipulaçao de dados, estatisticas, handson com tutores.  
 
@@ -57,46 +56,46 @@ Meeting with Lady of Keys
 
 description step: What does she learning ? How does she doing? 
 
-description: A heroina aprende machine learning(básico) e se sente forte o suficiente para seguir nos estudos. Também aprendeu fórmulas matemáticas de consultas a dados.   
+description: The heroine learns machine learning (basic) and feels strong enough to go on with her studies. He also learned mathematical formulas from data queries.  
 
-description plus: Acessa Box "4" demonstração de habilidades, apresentação, projetos em grupo, desenvolvimento de uma plaicação funcional.
+description plus: Access Box "4" skills demonstration, presentation, group projects, development of a functional application.
 
 Encryption of codes
 
 description step: The Heroine is ready. What is she learned last? 
 
-description: A Heroína aprendeu a ter autoconfiaça. Autorregulação no processo de aprendizagem, agora a Heroína perdeu o medo de programar e de matemática.
+description: The Heroine learned to be self-confident. Self-regulation in the learning process, now the heroíne has lost her fear of programming and math.
 
-description plus: Aplicação desenvolvida para a aluna aprendiz, está disponível no repositório do Github com licença de uso/readme.
+description plus: Application developed for the student, is available in the Github repository with use / readme license.
 
 Numbers are passwords
 
 description step: What is she about to face? How is she getting ready? 
 
-description: A Heroína está prestes a enfrentar o primeiro projeto de machine learning. É seu grande desafio a enfrentar. Ela possui exemplos de códigos, formatos de projetos, apresentação de vídeos/pitchs e repositório de projetos com wiki colaborativa. 
+description: The Heroíne is about to face the first machine learning project. It is your great challenge to face. It has code samples, project formats, video / pitch presentation and project repository with collaborative wiki.
 
-description plus: Recebe relatório final, "statuts" de Heroína aprendiz visível por toda a comunidade - Recebe instruções finais com 10 tópicos da autorregulação da aprendizagem(10 mandamentos). 
+description plus: Receives final report, Heroine learner status visible to the whole community - Receives final instructions with 10 topics of self-regulation of learning (10 commandments).
 
 Self Regulated Learning
 
 description step: This is the face of with the enemies. How does it go? 
 
-description: A Heroína encara de frente seu grande desafio. Como toda a experiência aprendida, agora a aluna está pronta para encarar uma demonstração pública de seus conhecimentos. Ela precisará colocar em prática as novas habilidades adquiridas até aqui.
+description: Heroine faces her great challenge. Like all the experience learned, the student is now ready to face a public demonstration of her knowledge. She will need to put into practice the new skills acquired so far.
 
-description plus: A aprendiz precisa fazer uma apresentação do seu código/explicação e a avaliação pela comunidade, a heroína encara o desafio com sucesso e seu código roda. 
+description plus: The student needs to make a presentation of her code / explanation and the evaluation by the community, the heroine faces the challenge successfully and her code runs.
 
 Reboot System
 
 description step: What does she gain? how has she changed?
 
-description: A aprendiz agora ganha o "status" de Heroína aprendiz e o nascimento de sua "Cria" híbrida, artificial, a inteligência [Nome da Aluna] que interage com outras "crias" de outras alunas.
+description: The learner now gains the "status" of learner Heroine and the birth of her hybrid, artificial "Child", the intelligence [Name of the Student] who interacts with other "children" of other students.
 
-description plus: Agora a aluna aprendiz precisa abrir um "portal" de um grupo secreto com Heroínas aprendizes.
+description plus: Now the student needs to open a "portal" of a secret group with learner heroines. 
 
 STEM Heroine
 
 description step: What the last trials? How is the purified by it? 
 
-description: Como consequência desta jornada a aluna heroína aprendiz recebe uma oportunidade de estágio nas empresas parceiras. Recebe um relatório/certificado de habilidades para comprovar sua bravura e experiência
+description: As a result of this journey, the student learner heroine receives an internship opportunity at partner companies. Receive a skills report / certificate to prove your bravery and experience
 
-description plus: Para se manter com "status" de Heroína aprendiz, a aluna precisa ajudar outra aluna iniciante em seu projeto, realizando uma mentoria fora de disciplina que aprendeu. Somente as Heroínas aprendizes conseguem realizar esta tarefa.
+description plus: To maintain her status as an learner Heroine, the student needs to help another student beginner in her project, performing an out-of-discipline mentoring that she has learned. Only learner heroines can accomplish this task.
