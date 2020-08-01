@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from flask import redirect, url_for, jsonify
+from flask import redirect, url_for, jsonify, Response
 from flask_pymongo import PyMongo
 import os
 import json
@@ -39,42 +39,89 @@ db = mongo.db
 
 swagger = Swagger(app, config=swagger_configuration)
 
+API_URL = 'http://localhost:5000'
+
 
 @app.route('/status')
 def status():
-    return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
+    r = Response(response=json.dumps({'success':True}), status=200)
+    r.headers["Content-Type"] = "application/json; charset=utf-8"
+    #return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
+    return r
 
-@app.route('/etapas', methods = ['get'])
-@swag_from('swagger/etapas.yml')
-def get_etapas():
+@app.route('/journeys', methods = ['get'])
+#@swag_from('swagger/etapas.yml')
+def get_journeys():
 
-    app.logger.info("request received on route /etapas'")
+    app.logger.info("request received on route /journeys'")
 
-    etapas_db = db.etapa.find()
-    etapas = []
-    for obj in etapas_db:
-        etapa = {'course':obj['course'], 'name': obj['name'], 'id':obj['id'], 'step': obj['step'], 'stage': obj['stage']}
-        #app.logger.info(etapa)
-        etapas.append(etapa)
+    journeys_db = db.journey.find()
+    journeys = []
+    for obj in journeys_db:
+        obj_id = obj['id']
+        journey = {
+            'id':obj_id, 
+            'name': obj['name'], 
+            'url': API_URL + f'/journey/{obj_id}'
+            }
+        journeys.append(journey)
 
-    return json.dumps(etapas), 200, {'ContentType':'application/json'}
+    r = Response(response=json.dumps(journeys), status=200)
+    r.headers["Content-Type"] = "application/json; charset=utf-8"
+    #return json.dumps(journeys), 200, {'ContentType':'application/json'}
+    return r
 
-@app.route('/etapa/<int:etapa_id>', methods = ['get'])
+@app.route('/journey/<int:journey_id>', methods = ['get'])
+#@swag_from('swagger/etapas.yml')
+def get_journey(journey_id):
+
+    app.logger.info("request received on route /journey'")
+
+    journey_db = db.journey.find_one({'id':journey_id})
+
+    if(journey_db == None):
+        journey_db = {'status': 404, 'error': 'resource not found'}
+        response_code = 404
+        
+    else:
+        del journey_db['_id']
+        stages_db = db.stage.find({'journey_id':journey_id})
+        stages = []
+        for obj in stages_db:
+            obj_id = obj['id']
+            stage = {
+                'id':obj_id, 
+                'name': obj['name'], 
+                'step': obj['step'], 
+                'stage': obj['stage'],
+                'journey_id': obj['journey_id'],
+                'url': API_URL + f"/stage/{obj_id}"
+                }
+            stages.append(stage)
+        journey_db['stages'] = stages
+        response_code = 200
+
+    r = Response(response=json.dumps(journey_db), status=response_code)
+    r.headers["Content-Type"] = "application/json; charset=utf-8"
+    return r
+
+@app.route('/stage/<int:stage_id>', methods = ['get'])
 @swag_from('swagger/etapa.yml')
-def get_etapa(etapa_id):
+def get_stage(stage_id):
 
-    app.logger.info("request received on route /etapa'")
+    app.logger.info("request received on route /stage'")
 
-    etapa_db = db.etapa.find_one({'id':etapa_id})
-    if(etapa_db != None):
-        del etapa_db['_id']
+    stage_db = db.stage.find_one({'id':stage_id})
+    if(stage_db != None):
+        del stage_db['_id']
         response_code = 200
     else:
-        etapa_db = {'status': 404, 'error': 'resource not found'}
+        stage_db = {'status': 404, 'error': 'resource not found'}
         response_code = 404
-    
-    #app.logger.info(etapa_db)
-    return json.dumps(etapa_db), response_code, {'ContentType':'application/json'}
+
+    r = Response(response=json.dumps(stage_db), status=response_code)
+    r.headers["Content-Type"] = "application/json; charset=utf-8"
+    return r
 
 
 app.run(host=os.environ['HOST'],port=os.environ['PORT'])
