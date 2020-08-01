@@ -1,99 +1,147 @@
 [
   {
     "course": "Machine Learning",
-    "Journey: "The Heroic Journey of a Learner in STEM courses",
+    "Journey": "The Heroic Journey of a Learner in STEM courses",
     "name": "Learning Heroine's World",
     "id": 1,
+    "journey_id": 3,
     "step": 1,
-    "stage": 1
+    "stage": 1,
+    "description_step": "Who is the Learning Heroine? How is her World like of the beginning?",
+    "description": "Your initial world is full of anguish, doubt and lack of confidence. It has several daily activities that include studies, family and leisure. Sometimes there are household chores or jobs. She needs improve your STEM skills's, feel part of a group. She has doubts about the future of profession, but believes in the increase of women in the labor market.",
+    "description_plus": "Consent + agreement / promise, from Heroíne's journey, on machine learning and wikipedia. Write a reaction on the wiki."
   },
   {
     "course": "Machine Learning",
-    "Journey: "The Heroic Journey of a Learner in STEM courses",
+    "Journey": "The Heroic Journey of a Learner in STEM courses",
     "name": "Malala's Call",
     "id": 2,
+    "journey_id": 3,
     "step": 2,
-    "stage": 1
+    "stage": 1,
+    "description_step": "What breakes the balance. Is there a message?",
+    "description": "A message encrypted by the heroine of the codes, which is an artificial intelligence called up Mera / Storm / Star / Witch Escalarte / Captain Marvel / Ravena and Phoenix.",
+    "description_plus": "Receives a message from the AI, containing the rules of the Journey, accesses via QRCode. Know the map of Journey"
   },
   {
     "course": "Machine Learning",
-    "Journey: "The Heroic Journey of a Learner in STEM courses",
+    "Journey": "The Heroic Journey of a Learner in STEM courses",
     "name": "Machine Learning",
     "id": 3,
+    "journey_id": 3,
     "step": 3,
-    "stage": 1
+    "stage": 1,
+    "description_step": "What does The Heroine Fear? What happend to change her mind?",
+    "description": "The Heroine fears a prejudiced judgment of men. There is the cultural issue and rejection in the labor market. She changes her mind when she attends a presentation by a group of successful women in STEM areas. The participation in TED-X by the young heroine, makes her heart gain self-confidence to continue studying STEM. It is a motivational presentation telling the journey.",
+    "description_plus": "The learner heroine performs the bartle test on the computer and receives the letter / figure of Player / Character. Access test via QRCode."
   },
   {
     "course": "Machine Learning",
-    "Journey: "The Heroic Journey of a Learner in STEM courses",
+    "Journey": "The Heroic Journey of a Learner in STEM courses",
     "name": "Artificial Integration",
     "id": 4,
+    "journey_id": 3,
     "step": 4,
-    "stage": 1
+    "stage": 1,
+    "description_step": " Who Guides The Heroíne, How does she help her.",
+    "description": "Who guides the Heroine is the warrior of the universe, an artificial intelligence guided by Athena, Goddess of wisdom. It helps students with content, answering questions, organizing groups and encouraging collaboration and self-regulation of learning.",
+    "description_plus": "Now the heroine student needs to dedicate time to studies, problems arise in managing time / procrastination and difficulties. Watch BOX \"1\" videos and podcast. Human and non-human tutors appear, experts may also appear in the telegram group. Learning resources and new technological platforms / environments are emerging."
   },
   {
     "course": "Machine Learning",
-    "Journey: "The Heroic Journey of a Learner in STEM courses",
+    "Journey": "The Heroic Journey of a Learner in STEM courses",
     "name": "STEM Learning can say no",
     "id": 5,
+    "journey_id": 3,
     "step": 5,
-    "stage": 1
+    "stage": 1,
+    "description_step": "What does the Heroine lose. What is she happen to gain?",
+    "description": "The heroine loses her fear of programming, she is hoping to gain confidence and stars in her code repositories on github, in addition, she helps with issues and comments on forums and tasks.",
+    "description_plus": "Access Box \"2\" motivational videos, visits to companies, internet searches + free time."
   },
   {
     "course": "Machine Learning",
-    "Journey: "The Heroic Journey of a Learner in STEM courses",
+    "Journey": "The Heroic Journey of a Learner in STEM courses",
     "name": "Machine Initiation",
     "id": 6,
+    "journey_id": 3,
     "step": 1,
-    "stage": 2
+    "stage": 2,
+    "description_step": "What does the Heroine find in the new World?",
+    "description": "The heroine finds her new world. Several programming codes that allow it to conduct new projects. Your new world contains several other students / friends, internship opportunities in companies, public presentations, workshops, conducting projects and new job opportunities.",
+    "description_plus": "Acessa \"Box 3\". Uso de apis, formaulas matematicas, manipulaçao de dados, estatisticas, handson com tutores."
   },
   {
     "course": "Machine Learning",
-    "Journey: "The Heroic Journey of a Learner in STEM courses",
+    "Journey": "The Heroic Journey of a Learner in STEM courses",
     "name": "Meeting with Lady of Keys",
     "id": 7,
+    "journey_id": 3,
     "step": 2,
-    "stage": 2
+    "stage": 2,
+    "description_step": "What does she learning ? How does she doing? ",
+    "description": "The heroine learns machine learning (basic) and feels strong enough to go on with her studies. He also learned mathematical formulas from data queries.",
+    "description_plus": "Access Box \"4\" skills demonstration, presentation, group projects, development of a functional application."
   },
   {
     "course": "Machine Learning",
-    "Journey: "The Heroic Journey of a Learner in STEM courses",
+    "Journey": "The Heroic Journey of a Learner in STEM courses",
     "name": "Encryption of codes",
     "id": 8,
+    "journey_id": 3,
     "step": 3,
-    "stage": 2
+    "stage": 2,
+    "description_step": "The Heroine is ready. What is she learned last? ",
+    "description": "The Heroine learned to be self-confident. Self-regulation in the learning process, now the heroíne has lost her fear of programming and math.",
+    "description_plus": "Application developed for the student, is available in the Github repository with use / readme license."
   },
   {
     "course": "Machine Learning",
-    "Journey: "The Heroic Journey of a Learner in STEM courses",
+    "Journey": "The Heroic Journey of a Learner in STEM courses",
     "name": "Numbers are passwords",
     "id": 9,
+    "journey_id": 3,
     "step": 4,
-    "stage": 2
+    "stage": 2,
+    "description_step": "What is she about to face? How is she getting ready?",
+    "description": "The Heroíne is about to face the first machine learning project. It is your great challenge to face. It has code samples, project formats, video / pitch presentation and project repository with collaborative wiki.",
+    "description_plus": "Receives final report, Heroine learner status visible to the whole community - Receives final instructions with 10 topics of self-regulation of learning (10 commandments)."
   },
   {
     "course": "Machine Learning",
-    "Journey: "The Heroic Journey of a Learner in STEM courses",
+    "Journey": "The Heroic Journey of a Learner in STEM courses",
     "name": "Self Regulated Learning",
     "id": 10,
+    "journey_id": 3,
     "step": 5,
-    "stage": 2
+    "stage": 2,
+    "description_step": "This is the face of with the enemies. How does it go? ",
+    "description": "Heroine faces her great challenge. Like all the experience learned, the student is now ready to face a public demonstration of her knowledge. She will need to put into practice the new skills acquired so far.",
+    "description_plus": "The student needs to make a presentation of her code / explanation and the evaluation by the community, the heroine faces the challenge successfully and her code runs."
   },
   {
     "course": "Machine Learning",
-    "Journey: "The Heroic Journey of a Learner in STEM courses",
+    "Journey": "The Heroic Journey of a Learner in STEM courses",
     "name": "Reboot System",
     "id": 11,
+    "journey_id": 3,
     "step": 1,
-    "stage": 3
+    "stage": 3,
+    "description_step": "What does she gain? how has she changed?",
+    "description": "The learner now gains the \"status\" of learner Heroine and the birth of her hybrid, artificial \"Child\", the intelligence [Name of the Student] who interacts with other \"children\" of other students.",
+    "description_plus": "Now the student needs to open a \"portal\" of a secret group with learner heroines."
   },
   {
     "course": "Machine Learning",
-    "Journey: "The Heroic Journey of a Learner in STEM courses",
+    "Journey": "The Heroic Journey of a Learner in STEM courses",
     "name": "STEM Heroine",
     "id": 12,
+    "journey_id": 3,
     "step": 2,
-    "stage": 3
-  },
+    "stage": 3,
+    "description_step": "What the last trials? How is the purified by it?",
+    "description": " As a result of this journey, the student learner heroine receives an internship opportunity at partner companies. Receive a skills report / certificate to prove your bravery and experience",
+    "description_plus": "To maintain her status as an learner Heroine, the student needs to help another student beginner in her project, performing an out-of-discipline mentoring that she has learned. Only learner heroines can accomplish this task."
+  }
   
 ]

@@ -3,118 +3,187 @@
     "course": " ",
     "name": "Call to adventure",
     "id": 1,
+    "journey_id": 1,
     "step": 1,
-    "stage": 1
+    "stage": 1,
+    "description_step": "",
+    "description": "This is an example of one of the ways in which the adventure can begin. A blunder—apparently the merest chance—reveals an unsuspected world, and the individual is drawn into a relationship with forces that are not rightly understood. As Freud has shown, 2 blunders are not the merest chance. They are the result of suppressed desires and conflicts. They are ripples on the surface of life, produced by unsuspected springs. And these may be very deep—as deep as the soul itself. The blunder may amount to the opening of a destiny. Thus it happens, in this fairy tale, that the disappearance of the ball is the first sign of something coming for the princess, the frog is the second, and the unconsidered promise is the third",
+    "description_plus" : ""
   },
   {
     "course": " ",
     "name": "Refusal of the call",
     "id": 2,
+    "journey_id": 1,
     "step": 2,
-    "stage": 1
+    "stage": 1,
+    "description_step": "",
+    "description": "Now when the king heard these words, the light became darkness in his sight and his heart burned for her as with a flame of fire, because he feared lest she should kill herself; and he was filled with perplexity concerning her affair and the kings her suitors. So he said to her: \"If thou be determined not to marry and there be no help for it: abstain from going and coming in and out.\" Then he placed her in a house and shut her up in a chamber, appointing ten old women as duennas to guard her, and forbade her to go forth to the Seven Palaces. Moreover, he made it appear that he was incensed against her, and sent letters to all the kings, giving them to know that she had been stricken with madness by the Jinn" ,
+    "description_plus" : ""
   },
   {
     "course": " ",
     "name": "Supernatural Aid",
     "id": 3,
+    "journey_id": 1,
     "step": 3,
-    "stage": 1
+    "stage": 1,
+    "description_step": "",
+    "description" : "For those who have not refused the call, the first encounter of the hero-journey is with a protective figure (often a little old crone or old man) who provides the adventurer with amulets against the dragon forces he is about to pass.",
+    "description_plus" : ""
   },
   {
     "course": " ",
     "name": "The Crossing of the First Thresh-old",
     "id": 4,
+    "journey_id": 1,
     "step": 4,
-    "stage": 1
+    "stage": 1,
+    "description_step": "",
+    "description" : "With the personifications of his destiny to guide and aid him, the hero goes forward in his adventure until he comes to the \"threshold guardian\" at the entrance to the zone of magnified power. Such custodians bound the world in the four directions — also up and down—standing for the limits c the hero's present sphere, or life horizon. Beyond them is dark less, the unknown, and danger; just as beyond the parental watch is danger to the infant and beyond the protection of his society danger to the member of the tribe. The usual person is more than content, he is even proud, to remain within the indicated bounds, and popular belief gives him every reason to fear so much as the first step into the unexplored.",
+    "description_plus" : ""
   },
   {
     "course": " ",
     "name": "The Belly of the Whale",
     "id": 5,
+    "journey_id": 1,
     "step": 5,
-    "stage": 1
+    "stage": 1,
+    "description_step": "",
+    "description": "The idea that the passage of the magical threshold is a transit into a sphere of rebirth is symbolized in the worldwide womb image of the belly of the whale. The hero, instead of conquering or conciliating the power of the threshold, is swallowed into the unknown, and would appear to have died.",
+    "description_plus" : ""
   },
   {
     "course": " ",
     "name": "Road of Trials",
     "id": 6,
+    "journey_id": 1,
     "step": 1,
-    "stage": 2
+    "stage": 2,
+    "description_step": "",
+    "description": "Once having traversed the threshold, the hero moves in a dream landscape of curiously fluid, ambiguous forms, where he must survive a succession of trials. This is a favorite phase of the myth adventure. It has produced a world literature of miraculous tests and ordeals. The hero is covertly aided by the advice, amulets, and secret agents of the supernatural helper whom he met before his entrance into this region. Or it may be that he here discovers for the first time that there is a benign power everywhere supporting him in his superhuman passage.",
+    "description_plus" : ""
   },
   {
     "course": " ",
     "name": "The Meeting with the goddess",
     "id": 7,
+    "journey_id": 1,
     "step": 2,
-    "stage": 2
+    "stage": 2,
+    "description_step": "",
+    "description": "The ultimate adventure, when all the barriers and ogres have been overcome, is commonly represented as a mystical marriage of the triumphant hero-soul with the Queen Goddess of the World. This is the crisis at the nadir, the zenith, or at the uttermost edge of the earth, at the central point of the cosmos, in the tabernacle of the temple, or within the darkness of the deepest chamber of the heart.",
+    "description_plus" : ""
   },
   {
     "course": " ",
     "name": "Woman as the Temptress",
     "id": 8,
+    "journey_id": 1,
     "step": 3,
-    "stage": 2
+    "stage": 2,
+    "description_step": "",
+    "description": "The mystical marriage with the queen goddess of the world represents the hero's total mastery of life; for the woman is life, the hero its knower and master. And the testings of the hero, which were preliminary to his ultimate experience and deed, were symbolical of those crises of realization by means of which his consciousness came to be amplified and made capable of enduring the full possession of the mother-destroyer, his inevitable bride. With that he knows that he and the father are one: he is in the father's place.",
+    "description_plus" : ""
   },
   {
     "course": " ",
     "name": "Atonement with the Father",
     "id": 9,
+    "journey_id": 1,
     "step": 4,
-    "stage": 2
+    "stage": 2,
+    "description_step": "",
+    "description": "The Bow of God's Wrath is bent, and the Arrow made ready on the String; and Justice bends the Arrow at your Heart, and strains the Bow; and it is nothing but the mere Pleasure of God, and that of an angry God, without any Promise or Obligation at all, that keeps the Arrow one Moment from being made drunk with your Blood. . . . ",
+    "description_plus" : ""
   },
   {
     "course": " ",
     "name": "Apotheosis",
     "id": 10,
+    "journey_id": 1,
     "step": 5,
-    "stage": 2
+    "stage": 2,
+    "description_step": "",
+    "description":"One of the most powerful and beloved of the Bodhisattvas of the Mahayana Buddhism of Tibet, China, and Japan is the Lotus Bearer, Avalokiteshvara, \"The Lord Looking Down in Pity, ' so called because he regards with compassion all sentient creatures suffering the evils of existence.\" 3 To him goes the millionfold repeated prayer of the prayer wheels and temple gongs of Tibet: Om mani padme hum, \"The jewel is in the lotus.\" To him go perhaps more prayers per minute than to any single divinity known to man; for when, during his final life on earth as a human being, he shattered for himself the bounds of the last threshold (which moment opened to him the timelessness of the void beyond the frustrating mirage-enigmas of the named and bounded cosmos), he paused: he made a vow that before entering the void he would bring all creatures without exception to enlightenment",
+    "description_plus" : ""
   },
   {
     "course": " ",
     "name": "The  Ultimate  Boon",
     "id": 11,
+    "journey_id": 1,
     "step": 6,
-    "stage": 2
+    "stage": 2,
+    "description_step": "",
+    "description":"When the Prince of the Lonesome Island had remained six nights and days on the golden couch with the sleeping Queen of Tubber Tintye, the couch resting on wheels of gold and the wheels turning continually—the couch going round and round, never stopping night or day—on the seventh morning he said, \"It is time for me now to leave this place.\". So he came down and filled the three bottles with water from the flaming well. In the golden chamber was a table of gold, and on the table a leg of mutton with a loaf of bread; and if all the men of Erin were to eat for a twelvemonth from the table, the mutton and the bread would be in the same form after the eating as before.",
+    "description_plus" : ""
   },
   {
     "course": " ",
     "name": "Refusal of the return",
     "id": 12,
+    "journey_id": 1,
     "step": 1,
-    "stage": 3
+    "stage": 3,
+    "description_step": "",
+    "description":"W H E N the hero-quest has been accomplished, through penetration to the source, or through the grace of some male or female, human or animal, personification, the adventurer still must return with his life-transmuting trophy. The full round, the norm of the monomyth, requires that the hero shall now begin the labor of bringing the runes of wisdom, the Golden Fleece, or his sleeping princess, back into the kingdom of humanity, where the boon may redound to the renewing of the community, the nation, the planet, or the ten thousand worlds.",
+    "description_plus" : ""
   },
   {
     "course": " ",
     "name": "The magic  Flight",
     "id": 13,
+    "journey_id": 1,
     "step": 2,
-    "stage": 3
+    "stage": 3,
+    "description_step": "",
+    "description":"If the hero in his triumph wins the blessing of the goddess or the god and is then explicitly commissioned to return to the world with some elixir for the restoration of society, the final stage of his adventure is supported by all the powers of his supernatural patron. On the other hand, if the trophy has been attained against the opposition of its guardian, or if the hero's wish to return to the world has been resented by the gods or demons, then the last stage of the mythological round becames a lively, often comical, pursuit. This flight may be complicated by marvels of magical obstruction and evasion.",
+    "description_plus" : ""
   },
   {
     "course": " ",
     "name": "Rescue  from  Without",
     "id": 14,
+    "journey_id": 1,
     "step": 3,
-    "stage": 3
-  }
+    "stage": 3,
+    "description_step": "",
+    "description":"The hero may have to be brought back from his supernatural adventure by assistance from without. That is to say, the world may have to come and get him. For the bliss of the deep abode is not lightly abandoned in favor of the self-scattering of the wakened state. \"Who having cast off the world,\" we read, \"would desire to return again? He would be only there.\" And yet, in so far as one is alive, life will call. Society is jealous of those who remain away from it, and will come knocking at the door. If the hero—like Muchukunda—is unwilling, the disturber suffers an ugly shock; but on the other hand, if the summoned one is only delayed —sealed in by the beatitude of the state of perfect being (which resembles death} —an apparent rescue is effected, and the adventurer returns",
+    "description_plus" : ""
+  },
  {
     "course": " ",
     "name": "The  Crossing  of  the  Re-turn Threshold",
     "id": 15,
+    "journey_id": 1,
     "step": 4,
-    "stage": 3
-  }
+    "stage": 3,
+    "description_step": "",
+    "description":"The two worlds, the divine and the human, can be pictured only as distinct from each other—different as life and death, as day and night. The hero adventures out of the land we know into darkness; there he accomplishes his adventure, or again is simply - lost to us, imprisoned, or in danger; and his return is described as a coming back out of that yonder zone. Nevertheless—and here is a great key to the understanding of myth and symbol — the two kingdoms are actually one. The realm of the gods is a forgotten dimension of the world we know.",
+    "description_plus" : ""
+  },
  {
     "course": " ",
     "name": " Master of the Two Worlds",
     "id": 16,
+    "journey_id": 1,
     "step": 5,
-    "stage": 3
-  } {
+    "stage": 3,
+    "description_step": "",
+    "description":"by virtue of the other—is the talent of the master. The Cosmic Dancer, declares Nietzsche, does not rest heavily in a single spot, but gaily, lightly, turns and leaps from one position to another. It is possible to speak from only one point at a time, but that does not invalidate the insights of the rest.",
+    "description_plus" : ""
+  },
+  {
     "course": " ",
     "name": "Freedom to live",
     "id": 17,
+    "journey_id": 1,
     "step": 6,
-    "stage": 3
+    "stage": 3,
+    "description_step": "",
+    "description":"The battlefield is symbolic of the field of life, where every creature lives on the death of another. A realization of the inevitable guilt of life may so sicken the heart that, like Hamlet or like Arjuna, one may refuse to go on with it. On the other hand, like most of the rest of us, one may invent a false, finally unjustified, image of oneself as an exceptional phenomenon in the world, not guilty as others are, but justified in one's inevitable sinning because one represents the good. Such self-righteousness leads to a misunderstanding, not only of oneself but of the nature of both man and the cosmos. The goal of the myth is to dispel the need for such life ignorance by effecting a reconciliation of the individual consciousness with the universal will. And this is effected through a realization of the true relationship of the passing phenomena of time to the imperishable life that lives and dies in all.",
+    "description_plus" : ""
   }
 ]
