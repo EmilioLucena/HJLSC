@@ -1,14 +1,14 @@
 
 tags:
-  - Etapa
+  - Stage
 
 parameters:
   - in: path
-    name: etapa_id
+    name: stage_id
     schema:
       type: integer
     required: true
-    description: ID da etapa
+    description: Stage id
 
       
 produces:
@@ -31,12 +31,21 @@ responses:
           type: integer
         stage:
           type: integer
+        description_step:
+          type: string
+        description:
+          type: string
+        description_plus:
+          type: string
       example: 
         course: "Machine Learning"
-        name: "Mentors Aid"
-        id: 4
-        step: 4
+        name: "Learning Heroine's World"
+        id: 32
+        step: 1
         stage: 1
+        description_step: "Who is the Learning Heroine? How is her World like of the beginning?"
+        description: "Your initial world is full of anguish, doubt and lack of confidence...."
+        description_plus: "Consent + agreement / promise, from Heroíne's journey, on machine..."
   
   500:
     description: "Internal Error, contact service admin"

@@ -1,6 +1,6 @@
 
 tags:
-  - Etapas
+  - Journeys
 
 
 produces:
@@ -13,22 +13,16 @@ responses:
     schema:
       type: object
       properties:
-        course:
-          type: string
         name:
           type: string
         id:
           type: integer
-        step:
-          type: integer
-        stage:
-          type: integer
+        url:
+          type: string
       example: 
-        course: "Machine Learning"
-        name: "Ordinary World"
+        name: "Campbell's Journey"
         id: 1
-        step: 1
-        stage: 1
+        url: "http://localhost:5000/journey/1"
   
   500:
     description: "Internal Error, contact service admin"

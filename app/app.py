@@ -39,7 +39,7 @@ db = mongo.db
 
 swagger = Swagger(app, config=swagger_configuration)
 
-API_URL = 'http://localhost:5000'
+API_URL = os.environ['API_URL']
 
 
 @app.route('/status')
@@ -50,7 +50,7 @@ def status():
     return r
 
 @app.route('/journeys', methods = ['get'])
-#@swag_from('swagger/etapas.yml')
+@swag_from('swagger/journeys.yml')
 def get_journeys():
 
     app.logger.info("request received on route /journeys'")
@@ -72,7 +72,7 @@ def get_journeys():
     return r
 
 @app.route('/journey/<int:journey_id>', methods = ['get'])
-#@swag_from('swagger/etapas.yml')
+@swag_from('swagger/journey.yml')
 def get_journey(journey_id):
 
     app.logger.info("request received on route /journey'")
@@ -106,7 +106,7 @@ def get_journey(journey_id):
     return r
 
 @app.route('/stage/<int:stage_id>', methods = ['get'])
-@swag_from('swagger/etapa.yml')
+@swag_from('swagger/stage.yml')
 def get_stage(stage_id):
 
     app.logger.info("request received on route /stage'")

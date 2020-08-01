@@ -1,0 +1,57 @@
+
+tags:
+  - Journeys
+
+parameters:
+  - in: path
+    name: journey_id
+    schema:
+      type: integer
+    required: true
+    description: Journey id
+
+produces:
+  - application/json 
+      
+
+responses:
+  200:
+    description: "OK"
+    schema:
+      type: object
+      properties:
+        name:
+          type: string
+          example: "Ordinary World"
+        id:
+          type: integer
+          example: 1
+        stages:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: integer
+                example: 32
+              name:
+                type: string
+                example: "Learning Heroine's World"
+              step:
+                type: integer
+                example: 1
+              stage:
+                type: integer
+                example: 1
+              journey_id:
+                type: integer
+                example: 3
+              url:
+                type: string
+                example: "http://localhost:5000/stage/32"
+  
+  500:
+    description: "Internal Error, contact service admin"
+    schema:
+      type: string
+      example: "{'Internal server error':'unforeseen mistake'}"

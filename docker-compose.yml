@@ -28,5 +28,6 @@ services:
       MONGODB_USERNAME: mongodbuser
       MONGODB_PASSWORD: mongodbpassword
       MONGODB_HOSTNAME: mongodb
+      API_URL: "http://localhost:5000"
     depends_on:
       - mongodb
