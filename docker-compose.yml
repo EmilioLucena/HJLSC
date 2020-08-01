@@ -11,7 +11,7 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: mongodbuser
       MONGO_INITDB_ROOT_PASSWORD: mongodbpassword
-      MONGO_INITDB_DATABASE: jornada
+      MONGO_INITDB_DATABASE: journey
     volumes: 
      - ./data:/data/db
 
@@ -24,7 +24,7 @@ services:
     environment:
       HOST: 0.0.0.0  
       PORT: 5000
-      MONGODB_DATABASE: jornada
+      MONGODB_DATABASE: journey
       MONGODB_USERNAME: mongodbuser
       MONGODB_PASSWORD: mongodbpassword
       MONGODB_HOSTNAME: mongodb
