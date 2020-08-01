@@ -13,7 +13,7 @@ description plus: Consent + agreement / promise, from Heroíne's journey, on mac
 
 Malala's Call
 
-description step: What breakes the balance. Is there a messagem?
+description step: What breakes the balance. Is there a message?
 
 description: A message encrypted by the heroine of the codes, which is an artificial intelligence called up Mera / Storm / Star / Witch Escalarte / Captain Marvel / Ravena and Phoenix.
 
