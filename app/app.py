@@ -33,7 +33,7 @@ db_host = os.environ['MONGODB_HOSTNAME']
 database = os.environ['MONGODB_DATABASE']
 
 app = Flask(__name__)
-app.config["MONGO_URI"] = f"mongodb://{username}:{password}@{db_host}:27017/{database}?authSource=admin"
+app.config["MONGO_URI"] = f"mongodb+srv://eblucena:wlm321@cluster0-hzcxc.mongodb.net/test?authSource=admin&replicaSet=Cluster0-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true"
 mongo = PyMongo(app)
 db = mongo.db
 
